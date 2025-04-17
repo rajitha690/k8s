@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: rajitha390/k8s:latest
+          image: rajitha390/k8s-deploy-pipeline:v1
           ports:
             - containerPort: 3000
